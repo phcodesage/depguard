@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose an improvement and explain the problem it solves.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Include examples, alternatives, and any security or privacy impact.
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Would you like to help implement this?
+      options:
+        - I can contribute code or documentation
+        - I can help test or discuss
+        - I am sharing an idea

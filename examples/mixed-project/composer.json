@@ -1,0 +1,5 @@
+{
+  "name": "depguard/example",
+  "description": "Metadata-only scanner fixture; do not install.",
+  "require": { "php": "^8.3" }
+}

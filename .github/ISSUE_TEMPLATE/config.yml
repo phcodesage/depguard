@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and design discussions
+    url: https://github.com/phcodesage/depguard/discussions
+    about: Ask questions or discuss larger proposals with the community.
+  - name: Report a vulnerability privately
+    url: https://github.com/phcodesage/depguard/security/advisories/new
+    about: Do not disclose unpatched DepGuard vulnerabilities in public issues.
