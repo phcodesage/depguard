@@ -78,6 +78,10 @@ branches are reported as incomplete coverage. Yarn, pnpm, Bun, npm shrinkwrap, a
 npm v1 locks are detected but not supported. A missing lockfile is never treated
 as a complete dependency inventory.
 
+Workspace manifests without their own lockfile currently produce conservative
+missing-lockfile warnings, even when a root npm lock covers them. Improving that
+recognition is tracked in [issue #3](https://github.com/phcodesage/depguard/issues/3).
+
 DepGuard never runs project scripts, installs dependencies, changes manifests,
 or performs upgrades. A report with no advisory matches is not a malware verdict
 or a security certification. Changing application dependencies does not patch
